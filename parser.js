@@ -114,7 +114,7 @@ function httpRequestSequence(nameConstellation) {
 
         dataResponse['shiitake'] = {
           'titleText': domSelector('.o-shiitake-detail__header .a-headline').textContent.trim(),
-          'sourceLocation': siteInfo['domain'] + '/' + siteInfo['path'] + '/' + nameConstellation + '/',
+          'sourceLocation': sourceLocation,
           'headlineText': domSelector('.o-shiitake-detail__title-texts .a-headline').textContent.trim(),
           'termText': domSelector('.o-shiitake-detail__date').textContent.replace(/\s/g, '').trim(),
           'summaryText': domSelector('.o-shiitake-detail__section .a-text').textContent.trim(),
