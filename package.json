@@ -1,0 +1,19 @@
+{
+  "name": "shitakescraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "echoback.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "npm i request jsdom",
+    "start": "node parser.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^16.4.0",
+    "request": "^2.88.2",
+    "url": "^0.11.0"
+  }
+}
