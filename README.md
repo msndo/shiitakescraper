@@ -11,13 +11,13 @@ https://voguegirl.jp/horoscope/shiitake/sagittarius/
 ### デフォルト（牡羊座）
 
 ```
-https://shitakescraper.herokuapp.com/
+https://shiitakescraper.herokuapp.com/
 ```
 
 ### 8月1日(0801)生まれ = 獅子座
 
 ```
-https://shitakescraper.herokuapp.com/?birthmmdd=0801
+https://shiitakescraper.herokuapp.com/?birthmmdd=0801
 ```
 
 ## レスポンス例
